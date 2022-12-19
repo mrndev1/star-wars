@@ -14,10 +14,10 @@ export default function Home () {
     let location = useLocation().pathname;
 
     return (
-        <div className={s.container}>
+        <div  className={s.container}>
             <Header/>
             {
-                location === '/home'? <Loading/>
+                location === '/'? <Loading/>
                 : <Outlet/>
             }
         </div>
