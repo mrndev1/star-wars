@@ -4,7 +4,7 @@ import { Outlet, useLocation } from "react-router-dom";
 // style
 import s from './Home.module.css';
 
-// components
+// componentss
 import Header from "../../components/Header/Header";
 import HomeSection from "../../components/HomeSection/HomeSection";
 
