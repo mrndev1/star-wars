@@ -1,0 +1,12 @@
+.container { display: flex; }
+
+
+.items_container { background-color: #ffe4c4; border-radius: 5px; width: 20rem; padding: 10px; }
+.items_container_img { border-radius: 5px; width: 20rem; }
+.items_container_info { margin-top: 10px; }
+.items_container_info_item { padding-top: 5px; padding-bottom: 5px; }
+
+
+.film_info_txt { font-size: 17px; line-height: 25px; }
+
+.planet_container { height: 100vh; }

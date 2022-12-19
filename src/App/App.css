@@ -1,0 +1,13 @@
+body, h1, ul, p { padding: 0px; margin: 0px; }
+ul { list-style: none; }
+
+.flex { display: flex; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-evenly { justify-content: space-evenly; }
+.flex-justify-between { justify-content: space-between; }
+
+.flex-align-center { align-items: center; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.gap-10 { gap: 100px; }

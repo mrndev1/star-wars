@@ -1,0 +1,9 @@
+.container {
+    background-color: rgb(12, 0, 67);
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.home_container {
+    background-color: rgb(12, 0, 67);
+    padding: 2rem 5rem 2rem 5rem; height: 85vh;
+}

@@ -1,0 +1,15 @@
+
+.header { display: flex; align-items: center; }
+.header_title, .header_list_item { font-size: 17px; color: bisque; text-decoration: none; }
+.header_list { display: flex; justify-content: space-between; align-items: center; width: 20rem; }
+.header_list li { text-align: center; }
+
+/** MOBILE **/
+@media screen and (max-width: 640px) {
+    .header { flex-direction: column; margin-bottom: 30px; }
+    .header_list { width: 100%; margin-top: 3vh; }
+}
+
+@media screen and (min-width: 641px) {
+    .header { justify-content: space-between; margin-bottom: 3vh; }
+}
