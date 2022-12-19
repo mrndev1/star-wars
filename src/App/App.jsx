@@ -15,10 +15,10 @@ export default function App() {
 
 const routes = (
     <Routes>
-        <Route exact path='/home' element={<Home/>}>
-            <Route path='/home/films' element={<FilmSection/>}/>
-            <Route path='/home/characters' element={<CharacterSection/>}/>
-            <Route path='/home/planets' element={<PlanetSection/>}/>
+        <Route exact path='/' element={<Home/>}>
+            <Route path='/films' element={<FilmSection/>}/>
+            <Route path='/characters' element={<CharacterSection/>}/>
+            <Route path='/planets' element={<PlanetSection/>}/>
         </Route>
     </Routes>
 );
