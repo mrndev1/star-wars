@@ -6,7 +6,7 @@ import s from './Home.module.css';
 
 // components
 import Header from "../../components/Header/Header";
-import Loading from "../../components/Loading/Loading";
+import HomeSection from "../../components/HomeSection/HomeSection";
 
 
 export default function Home () {
@@ -17,7 +17,7 @@ export default function Home () {
         <div  className={s.container}>
             <Header/>
             {
-                location === '/'? <Loading/>
+                location === '/'? <HomeSection/>
                 : <Outlet/>
             }
         </div>

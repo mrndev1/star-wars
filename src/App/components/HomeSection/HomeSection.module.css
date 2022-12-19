@@ -1,0 +1,5 @@
+.container { display: flex; justify-content: center; align-items: center; border-radius: 5px; height: 89vh; }
+.container_item {
+    background-image: url(../../../img/welcome.gif); background-size: cover; background-position: center;
+    border-radius: 5px; height: 30rem; width: 70rem;
+}
